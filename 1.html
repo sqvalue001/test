@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		源代码：https://github.com/ShiqiNetwork/web_server
+		项目管理：https://worktile.com/project/cc5bcb482cff4c4ab9f786f4db5c51a3/task
+		文档系统：https://shiqi.quip.com/
+
+		http://git.oschina.net/progit/
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+		装好git  注册好github账号密码  
+	1、git和github是2个东西  一个是工具一个网站  问题 如何绑定git和github上的项目
+		装完git以后在电脑上用户里面有个如："C:\Users\zhh\.ssh"里面一个叫id_rsa.pub文件 
+	打开获取到里面所有的东西 扔到github上
+	2、开始创建
+	本地生成ssh key
+		ssh-keygen -t rsa -C "注册邮箱"	
+		ssh -T git@github.com 查看是否成功
+		
+		git config --global user.email "查看用户邮箱"
+		git config --global user.name "查看用户邮箱"
+		git config --list  查看所有配置项
+	3、cd “文件名”  进入到一个文件夹中
+	  cd ..  后退
+	  
+	  然后把线上的东西弄到本地
+	  git clone git@github.com:zhanghanghang@shiqichuban/test.git
+	</body>
+</html>
